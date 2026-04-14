@@ -2,7 +2,7 @@ name: Run GAS
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '59 23 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call GAS
-        run: curl "https://script.google.com/macros/s/AKfycbxP1cLrizSWKcDWbkir17rCJvPHPjRznu__X3GduR0q-5r-goDVFtdgouAOn5PHGf65/exec"
+        run: curl "https://script.google.com/macros/s/AKfycbxfd5wiGLqRHjtyLg7_e_aga49emIMv0nOmUcO5msgBfmngbmG4PsFBnywDVxY-n8pu/exec"
